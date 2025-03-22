@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carpe Diem</title>
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Import font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Import Font, Mulish-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head-background">
+      <!-- The moving balls in the background -->
+      <div>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+      </div>
+
+      <!-- Nav Bar -->
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills/Experiences</a>
+        <a href="#projects">Projects</a>
+      </nav>
+
+      <div class="hero">
+        <div class="intro">
+          <img src="statics/jw.jpg" alt="portfolio pic" />
+          <h1 class="text-shadows">Hey! I'm Jing Wang</h1>
+        </div>
+
+        <!-- Github and LinkedIn link -->
+        <div class="social_icons">
+          <a href="https://github.com/Awannng" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/jing-wangw12/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- About me and medias-->
+      <div id="about">
+        <div class="self_description">
+          <p>
+            I am currently a Junior from Baruch College majoring in Computer
+            Sicence and minor in Mathematics. I am into Web Development track
+            where I am participating in programs like CodePath and CUNY Tech
+            Prep to enhence the foundmental skills that are needed for this
+            field.
+          </p>
+
+          <div class="fatcs">
+            <div>
+              <ul>
+                <p>Something About Me:</p>
+                <li>
+                  <i class="fa-solid fa-leaf"></i> No coffee BUT tea, especailly
+                  jasmine tea
+                </li>
+                <li>
+                  <i class="fa-solid fa-leaf"></i> I do crochets during free
+                  time
+                </li>
+                <li>
+                  <i class="fa-solid fa-leaf"></i> I likes biking in the warm
+                  weather
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src="/statics/tea1.1.gif" alt="hot tea gif" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div id="skills">
+        <div class="tab_titles">
+          <h2 class="tab_links active_link" onclick="openTab('stacks')">
+            Tech Stacks
+          </h2>
+          <h2 class="tab_links" onclick="openTab('experiences')">
+            Experiences
+          </h2>
+          <h2 class="tab_links" onclick="openTab('education')">Education</h2>
+        </div>
+
+        <!-- Skill Stacks -->
+        <div class="tab_contents active_tab" id="stacks" style="width: 100%">
+          <h4>Stacks</h4>
+          <!-- Icons of the tech stacks -->
+          <div class="stack-icons">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              height="40"
+              alt="javascript logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              height="40"
+              alt="typescript logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              height="40"
+              alt="python logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              height="40"
+              alt="java logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              height="40"
+              alt="react logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              height="40"
+              alt="html5 logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              height="40"
+              alt="css3 logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+              height="40"
+              alt="tailwindcss logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+              height="40"
+              alt="sass logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              height="40"
+              alt="express logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              height="40"
+              alt="postgresql logo"
+            />
+          </div>
+
+          <div>
+            <h4>Language</h4>
+            Mandarin
+          </div>
+        </div>
+
+        <!-- Experiences -->
+        <div class="tab_contents" id="experiences" style="width: 60%">
+          <div>
+            <div class="experience_title">
+              <h4>CodePath</h4>
+              <p>Jan 2025 - Present</p>
+            </div>
+            <p>Fellow, Intermediate Web Development</p>
+          </div>
+
+          <div>
+            <div class="experience_title">
+              <h4>CUNY Tech Prep</h4>
+              <p>July 2024 - Present</p>
+            </div>
+            <p>Fellow, Software Development/Web Dev</p>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="tab_contents" id="education">
+          <div class="school_title">
+            <h4>Baruch College</h4>
+            <p>Expected In: May 2026</p>
+          </div>
+          <p>
+            Bachelor of Science (B.S.) Computer Science | Cumulative GPA:
+            3.88/4.0
+          </p>
+          <p>Relevant Courses:</p>
+          <ul>
+            <li>Java Programming</li>
+            <li>Python Data Analysis</li>
+            <li>C++ Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Design</li>
+            <li>Database Management System</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- List of recent projects; with title, link and description -->
+      <h2>Projects</h2>
+      <div id="projects">
+        <!-- Project 1 -->
+        <div class="project-content">
+          <img src="statics/globe.gif" alt="project img" />
+          <div class="project_title">
+            <h3>Hello World (CTP Project)</h3>
+            <p>Oct 2024 - Dec 2024</p>
+          </div>
+
+          <p class="project-desp">
+            Full-stack travel web application enabling users to pin, write, and
+            share details of their trips.
+          </p>
+          <!-- Github -->
+          <a href="https://github.com/Awannng/helloworld" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-content">
+          <img src="statics/sushi.gif" alt="project img" />
+          <div class="project_title">
+            <h3>Fugu Sushi (In-School Project)</h3>
+            <p>Nov 2024 - Dec 2024</p>
+          </div>
+
+          <p class="project-desp">
+            A commercial web page to promote a Japanese restaurant, focusing on
+            visualization and brand visibility.
+          </p>
+          <!-- Github -->
+          <a href="https://github.com/Awannng/FuguSushi" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-content">
+          <img src="statics/calendar.png" alt="project img" />
+          <div class="project_title">
+            <h3>My CUNY Calendar (CTP Hackathon)</h3>
+            <p>Aug 2024 - Aug 2024</p>
+          </div>
+
+          <p class="project-desp">
+            This is a website design for CUNY students to check out the first
+            hand news on what's happening around their campus, save their time
+            and attention taht was waste on gathering these fragmented info.
+          </p>
+          <!-- Github -->
+          <a href=" https://github.com/Awannng/2024CTPHackathon" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <!-- End of Project-->
+    </div>
+    <!-- End of container -->
+
+    <!-- Skills section: click to check each part -->
+    <script>
+      let tabLinks = document.getElementsByClassName("tab_links");
+      let tabContents = document.getElementsByClassName("tab_contents");
+
+      function openTab(tabname) {
+        // Remove active class from all tab links
+        for (let tabLink of tabLinks) {
+          tabLink.classList.remove("active_link");
+        }
+
+        // Hide all tab contents
+        for (let tabContent of tabContents) {
+          tabContent.classList.remove("active_tab");
+        }
+
+        // Add active class to the clicked tab link
+        event.currentTarget.classList.add("active_link");
+        // Show the corresponding tab content
+        document.getElementById(tabname).classList.add("active_tab");
+      }
+    </script>
+  </body>
+
+  <!-- Back to top button -->
+  <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+  <footer>&copy; Copyright 2025 Jing Wang. All Rights Reserved.</footer>
+</html>
